@@ -1,4 +1,4 @@
-#header {
+.header {
 	background-color: #106470;
     width: %100;
     padding: 15px; 
@@ -7,8 +7,17 @@
     text-align: center;
 }
 
-#title {
+.title {
 	color: white;
+}
+
+.ov {
+	background-color: #106470;
+    width: %100;
+    padding: 0px; 
+    margin: 0px;
+    height: 50px;
+    text-align: left;
 }
 
 
@@ -53,5 +62,27 @@ background-color: #030033;
  }
 
  h3.welcome{
- 	text-align: left;
+ 	text-align: center;
  }
+
+p.bg-info {
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+p.bg-warning{
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.research {
+	background-color: #106470;
+    width: %100;
+    padding: 15px; 
+    margin: 15px;
+    height: 100px;
+    text-align: left;
+
+}

@@ -11,19 +11,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
   <script src="customscript.js"></script>
-  
+
 </head>
 <body>
-  <div id ="header">
-  <h3 id ="title"> Plasma Physics and Technologies Research Laboratory</h3><br>
+  <div class ="header">
+  	<h2 class ="title"> Plasma Physics and Technologies Research Laboratory</h2><br>
  
  <div class="container-fluid">
  	<div class="jumbotron">
  		<nav class="navbar navbar-default">
     		<ul class="nav navbar-nav">
       			<li><a href="#">Home</a></li>
-      			<li><a href="#">Research</a></li>
-      			<li><a href="#">Lab Workers</a></li>
+      			<li><a href="research.html">Research</a></li>
+      			<li><a href="#">Research Group</a></li>
       			<li><a href="#">Working with industry</a></li>
       			<li><a href="#">News</a></li>
       			<li><a href="#">Events</a></li>
@@ -31,9 +31,9 @@
 	</nav>
 	     
 	     <div class="row">
-  			<div class="col-sm-12">
-
-  				<h3>Overview of the Laboratory</h3>
+  			<div class="col-md-12">
+  			 <div class="ov"> 
+  				<h3 class ="title">Overview of the Laboratory</h3></div>
   				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			    <!-- Indicators -->
 			    <ol class="carousel-indicators">
@@ -94,13 +94,42 @@
 
 		 <div class="container">
 			<div class="row">
-  				<div class="col-sm-6">
+  				<div class="col-md-12">
   				  <h3 class="welcome">Welcome to LabPPTR</h3><br>
-  				  <p class="intro"> The Laboratory for Plasma Physics and Technologies Research Laboratory (LabSC) is a research group based at the Eskisehir Osmangazi University.</p>
+  				  <p class="intro"> The Laboratory for Plasma Physics and Technologies Research Laboratory (LabPPTR) is a research group based at the Eskisehir Osmangazi University.</p>
 				  <p class="intro">Researchers at LabPPTR are primarily engaged with the coating of materials for industrial applications.</p>
-				 <p class="intro">The group has graduate student workers as well as a number of long-term academic and industrial visitors.</p> 
+				 <p class="intro">The group has Professors and Graduate students.</p> 
 				 <p class="intro">The funding of LabPPTR comes primarily from industry; for more information, see: Working with industry. </p>
-				 </div>
+				 </div></div>
+			
+
+			<div class="row">
+				 <h3 class="welcome">Contact Informations</h3><br>
+				  <div class="col-md-12">
+						<p class="bg-warning"> Eskisehir Osmangazi University Arts and Science Faculty Physics Department, 26480, Eskisehir, Turkey </p>
+						<p class="bg-info"> Phone: +90.222.2393750/2338-2822-2804-2807 </p>
+					</div>
+			<div class="row">
+	 			  <div class="col-md-12"> 
+	
+						 <div id="map" style="width:70%;height:400px "></div>
+
+							<script>
+							function myMap() {
+							  var mapCanvas = document.getElementById("map");
+							  var mapOptions = {
+							    center: new google.maps.LatLng(39.752358,30.487400),
+							    zoom:17,
+							    mapTypeId:google.maps.MapTypeId.HYBRID
+							  };
+							  var map = new google.maps.Map(mapCanvas,mapOptions);
+							}
+							</script> </div>
+
+							<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+				</div>
+			</div>
+
 			</div>
 		</div>	
 
