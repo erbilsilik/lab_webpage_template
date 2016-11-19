@@ -4,45 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="custom.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-  <script src="customscript.js"></script>
-
+  <style>
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  </style>
 </head>
 <body>
 
- <div class ="research">
-  	<h2 class ="title"> Research</h2><br></div>
-  	<div class="container">
-  	<div class="jumbotron">
-  		<h3>Team</h3><br>
-      <div class="row">
-       <div class="col-md-6">Suat Pat
-          <img src="pictures/erbil.jpg" class="img-rounded" alt="Cinque Terre" height="150px">
-       </div>
-       <div class="col-md-6">Sadan Korkmaz
-          <img src="pictures/erbil.jpg" class="img-rounded" alt="Cinque Terre" height="150px">
-        </div></div>
-
-         <div class="row">
-       <div class="col-md-6">Suat Pat
-          <img src="pictures/erbil.jpg" class="img-rounded" alt="Cinque Terre" height="150px">
-       </div>
-       <div class="col-md-6">Sadan Korkmaz
-          <img src="pictures/erbil.jpg" class="img-rounded" alt="Cinque Terre" height="150px">
-        </div></div>
-
-      <div class="row">
-       <div class="col-md-6">Suat Pat
-          <img src="pictures/erbil.jpg" class="img-rounded" alt="Cinque Terre" height="150px">
-       </div>
-       <div class="col-md-6">Sadan Korkmaz
-          <img src="pictures/erbil.jpg" class="img-rounded" alt="Cinque Terre" height="150px">
-        </div></div>
-
-  </div>
+<div class="container text-center">
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <img src="pictures/erbil.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
     </div>
-      </body>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <img src="pictures/erbil.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <img src="pictures/erbil.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
