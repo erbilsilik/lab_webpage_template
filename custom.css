@@ -1,17 +1,141 @@
 .header {
-	background-color: #106470;
+	  background-color: #106470;
     width: %100;
     padding-top:  15px;
     margin-top: 0px;
-    height: 208px;
+    height: 220px;
     text-align: center;
 }
 
-.title {
-	color: white;
+
+h2.title {
+	color: white; 
   font-family: "Arial";
+
 }
 
+.overview {
+  background-color: #1e7680;
+  width: 1140px;
+  height: 75px;
+  margin-top: -20px;
+
+
+}
+
+.navbar-default {
+  background-color: #0c5963;
+  border-color: #074047;
+  margin-top:35px;
+  border-radius: 0px;
+  border: 1px solid #106470;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #eeeeee;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #eeeeee;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #0c5963;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #eeeeee;
+  background-color: #074047;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #074047;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #eeeeee;
+  background-color: #074047;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #eeeeee;
+  background-color: #074047;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #eeeeee;
+  background-color: #074047;
+}
+.navbar-default .navbar-toggle {
+  border-color: #074047;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #074047;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #eeeeee;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #eeeeee;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #eeeeee;
+    background-color: #074047;
+  }
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-color: #0c5963;
+}
+.carousel .item {
+  background: #106470;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      background-color: #0c5963;  
+      width: 70%;
+      margin: auto;
+}
+
+
+ h3.ovtext{
+  text-align: left;
+  padding: 20px;
+  color: white;
+
+ }
 
  p.intro {
  	text-align: justify;
@@ -22,6 +146,8 @@
 
  h3.welcome{
  	text-align: center;
+  border-bottom: 2px solid red;
+  background-color: lightgrey;
  }
 
 p.bg-info {
@@ -48,4 +174,16 @@ p.bg-warning{
 
 p.proje {
   font-size:16px;
+}
+
+.gallery {
+  background-color: #1e7680;
+  width: 1140px;
+  height: 75px;
+  margin-top: -20px; }
+
+h3.page {
+  text-align: center;
+  padding: 30px;
+  color: white;
 }
