@@ -19,8 +19,7 @@ h2.title {
   width: 1140px;
   height: 75px;
   margin-top: -20px;
-
-
+  
 }
 
 .navbar-default {
@@ -29,6 +28,7 @@ h2.title {
   margin-top:35px;
   border-radius: 0px;
   border: 1px solid #106470;
+
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -180,10 +180,23 @@ p.proje {
   background-color: #1e7680;
   width: 1140px;
   height: 75px;
-  margin-top: -20px; }
+  margin-top: -20px; 
+}
 
 h3.page {
   text-align: center;
   padding: 30px;
   color: white;
 }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  border: 1px solid black;
+}
+
+h3.galtext {
+   border-left: 10px solid red;
+   background-color: lightgrey;
+}
+
