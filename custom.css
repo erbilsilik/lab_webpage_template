@@ -200,3 +200,17 @@ h3.galtext {
    background-color: lightgrey;
 }
 
+div#footer {
+    padding: 10px;
+    color: white;
+    background-color: #106470;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer a:hover { 
+    color: white;
+    background-color: #800000;
+}
