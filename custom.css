@@ -10,7 +10,7 @@
 
 h2.title {
 	color: white; 
-  font-family: "Arial";
+  font-family: Arial;
 
 }
 
@@ -139,6 +139,7 @@ h2.title {
   padding: 20px;
   color: white;
 
+
  }
 
  p.intro {
@@ -147,6 +148,7 @@ h2.title {
  	font-family: Arial;
 
  }
+
 
  h3.welcome{
  	text-align: center;
@@ -158,6 +160,12 @@ p.bg-info {
 	font-size: 16px;
 	font-family: Arial;
 	font-weight: bold;
+}
+
+p.bg-success{
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
 }
 
 p.bg-warning{
@@ -242,3 +250,18 @@ div#footer {
 .list-group-item {
   text-align: justify;
 }
+
+p.task {
+
+  font-size: 18px;
+  font-family: News Cycle;
+}
+
+p.text-center {
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: PatuaOne;
+
+
+}
+
