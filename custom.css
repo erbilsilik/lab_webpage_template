@@ -1,17 +1,37 @@
+#prehead {
+  background-color: #fff;
+  height: 140px;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+}
+
+h3#title {
+
+  text-align: center;
+  font-family: myFirstFont;
+  letter-spacing: 3px;
+  font-size: 33px;
+  padding-top: 17px;
+}
+
+img#logo1 {
+}
+
+img#logo2 {
+  
+}
+
+
 .header {
 	  background-color: #106470;
     width: %100;
     padding-top:  15px;
-    margin-top: 0px;
-    height: 220px;
+    margin-top: 15px;
+    height: 140px;
     text-align: center;
-}
-
-
-h2.title {
-	color: white; 
-  font-family: Arial;
-
 }
 
 .overview {
@@ -225,12 +245,13 @@ table {
 .table-bordered > tfoot > tr > td {
    border: 0.5px solid #000000;
 }
-}
 
 h3.galtext {
    border-left: 10px solid red;
    background-color: lightgrey;
 }
+
+
 
 div#footer {
     padding: 10px;
@@ -258,10 +279,13 @@ p.task {
 }
 
 p.text-center {
-  font-size: 20px;
+  font-size: 19px;
   padding-top: 10px;
   font-family: PatuaOne;
 
 
 }
 
+#education{
+  color: white;
+}
