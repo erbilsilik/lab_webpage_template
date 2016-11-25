@@ -3,6 +3,11 @@
   height: 140px;
 }
 
+#prehead .col-md-3{
+margin-top:15px
+}
+
+
 @font-face {
    font-family: myFirstFont;
    src: url(sansation_bold.woff);
@@ -17,16 +22,24 @@ h3#title {
   padding-top: 17px;
 }
 
-img#logo1 {
+/* draw selected text in a paragraph white on black */
+::-moz-selection {
+  color: blue;
+  background: none;
 }
 
-img#logo2 {
-  
+::selection {
+  color: blue;
+  background: none;
 }
 
+nav::selection {
+  color: none;
+  background: none;
+}
 
 .header {
-	  background-color: #106470;
+	 background-color: #106470;
     width: %100;
     padding-top:  15px;
     margin-top: 15px;
@@ -227,14 +240,24 @@ h3.page {
   color: white;
 }
 
+
 table {
   border-collapse: separate;
-  border-spacing: 0 10px;
+  border-spacing: 0 8px;
   border: 0.5px solid #000000;
 }
 
-.table td {
-   text-align: center;   
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+
+}
+
+tr:hover{background-color:#f5f5f5}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
 }
 
 .table-bordered > thead > tr > th,
@@ -243,8 +266,18 @@ table {
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
+  
    border: 0.5px solid #000000;
 }
+
+#services {
+  border-collapse: collapse;
+  border-spacing: 0 0px;
+  border: 0.5px solid #000000;
+}
+
+
+
 
 h3.galtext {
    border-left: 10px solid red;
@@ -288,4 +321,8 @@ p.text-center {
 
 #education{
   color: white;
+}
+
+#persons{
+margin-top:50px
 }
